@@ -366,12 +366,22 @@ body.nav-open .menu-toggle {
   justify-content: center;
   align-items: center;
   opacity: 0;
+  visibility: hidden;
+  /* Added for robustness */
   pointer-events: none;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Ensure mobile drawer is NEVER visible on desktop */
+@media (min-width: 769px) {
+  .mobile-drawer {
+    display: none !important;
+  }
 }
 
 .mobile-drawer.active {
   opacity: 1;
+  visibility: visible;
   pointer-events: auto;
 }
 
