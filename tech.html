@@ -33,58 +33,151 @@
                 Resilience
             </a>
             <div class="nav-links">
-                <a href="tech.html" style="color: var(--color-text-primary);">The Tech</a>
-                <a href="science.html">The Science</a>
-                <a href="art.html">The Art</a>
+                <a href="philosophy.html">Philosophy</a>
+                <a href="trust.html">Trust</a>
+                <a href="impact.html">Impact</a>
+                <a href="tech.html" style="color: var(--color-text-primary);">Tech</a>
+                <a href="science.html">Science</a>
+                <a href="art.html">Art</a>
+                <a href="#" class="btn btn-nav">Start Now</a>
             </div>
-            <a href="index.html#join" class="btn" style="padding: 10px 20px; font-size: 0.9rem;">Start Now</a>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Mobile Side Drawer -->
+            <div class="mobile-drawer">
+                <button class="close-drawer" aria-label="Close menu">&times;</button>
+                <div class="drawer-links">
+                    <a href="index.html">Home</a>
+                    <a href="philosophy.html">Our Philosophy</a>
+                    <a href="trust.html">Trust & Privacy</a>
+                    <a href="impact.html">Social Impact</a>
+                    <a href="tech.html">The Tech</a>
+                    <a href="science.html">The Science</a>
+                    <a href="art.html">The Art</a>
+                    <a href="#" class="btn drawer-btn">Start Now</a>
+                </div>
+            </div>
         </div>
     </nav>
 
     <main>
-        <section class="hero" style="min-height: 70vh;">
+        <section class="hero" style="min-height: 60vh;">
             <div class="container fade-in">
-                <h1>Fluid Intelligence.</h1>
-                <p>Designed to be as adaptive and powerful as the ocean. Our technology flows around your needs,
-                    privacy-first.</p>
+                <h1>The Hybrid Brain.</h1>
+                <p>Clinical Empathy meets Curated Knowledge. A specialized RAG system designed for resilience, not just
+                    chat.</p>
             </div>
         </section>
 
-        <section>
+        <!-- Core Philosophy -->
+        <section style="background: rgba(255,255,255,0.4); backdrop-filter: blur(10px);">
             <div class="container">
-                <div class="features-grid">
-                    <div class="feature-card fade-in">
-                        <img src="icon_shield.svg" class="feature-icon" alt="AES-256 Encryption">
-                        <h3>AES-256 Encryption</h3>
-                        <p>Military-grade encryption ensures that your thoughts remain yours. Keys are generated locally
-                            on your device.</p>
-                    </div>
-                    <div class="feature-card fade-in">
-                        <img src="icon_lightning.svg" class="feature-icon" alt="Local Processing">
-                        <h3>Local Processing</h3>
-                        <p>Core models run directly on-chip. No latency, no cloud dependency for critical interactions.
-                        </p>
-                    </div>
-                    <div class="feature-card fade-in">
-                        <img src="icon_wave.svg" class="feature-icon" alt="Adaptive Context">
-                        <h3>Adaptive Context</h3>
-                        <p>Our "Liquid Memory" architecture allows the AI to retain context over months, not just
-                            minutes.</p>
+                <div class="fade-in" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                    <h2 class="section-title">Not a Doctor. A Wise Friend.</h2>
+                    <p class="section-subtitle">Most chatbots fail because they try to be a cheap therapist. Resilience
+                        AI is different.</p>
+                    <div
+                        style="text-align: left; margin-top: 2rem; display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+                        <div class="feature-card" style="margin: 0;">
+                            <h3>Stoic & Practical</h3>
+                            <p>Validates feelings instantly but pivots to actionable resilience. No generic textbook
+                                answers.</p>
+                        </div>
+                        <div class="feature-card" style="margin: 0;">
+                            <h3>Human-First</h3>
+                            <p>Speaks like a peer with short texts and empathy, not like a medical journal.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Technical Architecture -->
+        <section>
+            <div class="container">
+                <h2 class="section-title text-center">The Architecture</h2>
+                <p class="text-center" style="max-width: 600px; margin: 0 auto 3rem auto;">We use a <strong>Hybrid
+                        RAG</strong> system that combines clinical instinct with a library of wisdom.</p>
+
+                <div class="features-grid">
+                    <div class="feature-card fade-in">
+                        <img src="icon_brain.svg" class="feature-icon" alt="The Brain">
+                        <h3>The Brain</h3>
+                        <p><strong>Fine-Tuned Logic</strong><br>A Llama-3 model trained on 30+ psychologist-analyzed
+                            vignettes. It knows *how* to speak with clinical empathy.</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <img src="icon_pillar.svg" class="feature-icon" alt="The Memory">
+                        <h3>The Memory</h3>
+                        <p><strong>Vector Database</strong><br>A curated library of key Stoic texts and CBT manuals. It
+                            retrieves specific, proven exercises for your situation.</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <img src="icon_sprout.svg" class="feature-icon" alt="The Synthesis">
+                        <h3>The Synthesis</h3>
+                        <p>It validates your emotion ("That's a heavy weight") and weaves specific wisdom into a
+                            practical suggestion.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- UX Section -->
+        <section style="background: rgba(255,255,255,0.4);">
+            <div class="container fade-in">
+                <h2 class="section-title text-center">The "WhatsApp Effect"</h2>
+                <div style="max-width: 700px; margin: 0 auto;">
+                    <p class="text-center">Real friends don't send 300-word emails. They send bursts.</p>
+                    <div class="feature-card" style="margin-top: 2rem;">
+                        <h3>The Natural Flow Engine</h3>
+                        <p>Our post-processing algorithm mimics human typing patterns. Instead of a "Wall of Text," you
+                            get natural bubbles with realistic typing delays.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Privacy Section -->
+        <section>
+            <div class="container">
+                <h2 class="section-title text-center">Privacy by Design</h2>
+                <div class="features-grid" style="margin-top: 2rem;">
+                    <div class="feature-card fade-in">
+                        <img src="icon_shield.svg" class="feature-icon" alt="Local First">
+                        <h3>100% Local</h3>
+                        <p>The AI lives on your device. No API calls to big tech. Your data never leaves your phone.</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <img src="icon_lock.svg" class="feature-icon" alt="Zero Retention">
+                        <h3>Zero Retention</h3>
+                        <p>We do not use your conversations to train our models. Your secrets stay yours.</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <img src="icon_lifebuoy.svg" class="feature-icon" alt="Safety">
+                        <!-- Using lifebuoy/shield placeholder -->
+                        <h3>Safety Rails</h3>
+                        <p>Hard-coded detection for self-harm ensures immediate redirection to crisis support when
+                            needed.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Art Anchor -->
         <section class="text-center">
             <div class="container fade-in">
-                <h2>The Architecture of Calm.</h2>
-                <div class="art-showcase" style="height: 400px;">
+                <div class="art-showcase" style="height: 300px;">
                     <img src="tech_bg.jpg" alt="Seascape Integration">
                 </div>
                 <div class="art-caption fade-in">
-                    <strong>Claude Monet</strong>
-                    <p>“The Cliff, Étretat, Sunset” (1883) — The ocean represents the vast, adaptive power of fluid
-                        intelligence. Monet’s obsession with water illustrates how perspective changes everything.</p>
+                    <strong>The Architecture of Calm</strong>
+                    <p>Just like Monet's water, our technology is fluid, adaptive, and beautiful.</p>
                 </div>
             </div>
         </section>

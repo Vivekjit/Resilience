@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Science | RESILIENCE</title>
+    <title>Trust & Privacy | RESILIENCE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Ballet&display=swap"
@@ -14,17 +14,17 @@
 
     <style>
         :root {
-            --page-bg-image: url('starry_night_full.jpg');
-            --page-accent-color: #23335e;
-            --bg-tint: #f0f4f8;
+            --page-bg-image: url('trust_bg.jpg');
+            --page-accent-color: #2a4d69;
+            /* Deep blue/green from the Van Gogh painting */
         }
     </style>
 </head>
 
-<body style="background-color: var(--bg-tint);">
+<body>
 
-    <div class="background-container" style="opacity: 0.2;">
-        <img src="starry_night_full.jpg" class="background-image" alt="Background">
+    <div class="background-container">
+        <img src="trust_bg.jpg" class="background-image" alt="Background - Van Gogh Landscape">
     </div>
 
     <nav>
@@ -35,10 +35,10 @@
             </a>
             <div class="nav-links">
                 <a href="philosophy.html">Philosophy</a>
-                <a href="trust.html">Trust</a>
+                <a href="trust.html" style="color: var(--color-text-primary);">Trust</a>
                 <a href="impact.html">Impact</a>
                 <a href="tech.html">Tech</a>
-                <a href="science.html" style="color: var(--color-text-primary);">Science</a>
+                <a href="science.html">Science</a>
                 <a href="art.html">Art</a>
                 <a href="#" class="btn btn-nav">Start Now</a>
             </div>
@@ -68,34 +68,40 @@
     </nav>
 
     <main>
-        <section class="hero" style="min-height: 70vh;">
+        <section class="hero" style="min-height: 50vh;">
             <div class="container fade-in">
-                <h1>Rooted in Evidence.</h1>
-                <p>We don't guess with your mental health. Our approaches are grounded in decades of Cognitive
-                    Behavioral Therapy research.</p>
+                <h1>Rooted in Trust.</h1>
+                <p>Your mind is a sanctuary. We built the walls to protect it.</p>
             </div>
         </section>
 
-        <section>
+        <section style="background: rgba(255,255,255,0.6); backdrop-filter: blur(12px);">
             <div class="container">
-                <div class="features-grid">
-                    <div class="feature-card fade-in">
-                        <img src="icon_sprout.svg" class="feature-icon" alt="Cognitive Restructuring">
-                        <h3>Cognitive Restructuring</h3>
-                        <p>Identify and challenge negative thought patterns to foster a healthier, more resilient
-                            mindset.</p>
-                    </div>
-                    <div class="feature-card fade-in">
-                        <img src="icon_chart.svg" class="feature-icon" alt="Clinical Validation">
-                        <h3>Clinical Validation</h3>
-                        <p>Developed in partnership with leading clinical psychologists and validated through user
-                            studies.</p>
-                    </div>
-                    <div class="feature-card fade-in">
-                        <img src="icon_handshake.svg" class="feature-icon" alt="Therapeutic Alliance">
-                        <h3>Therapeutic Alliance</h3>
-                        <p>Our AI is trained to emulate the empathy and unconditional positive regard found in
-                            successful therapy.</p>
+                <div class="fade-in" style="max-width: 800px; margin: 0 auto;">
+                    <h2 class="section-title text-center">Your Secrets Stay Yours.</h2>
+                    <p class="text-justify" style="margin-bottom: 2rem;">
+                        Mental health data is the most sensitive data in the world. We adhere to a "Local-First"
+                        doctrine.
+                        We don't just promise privacy; we architected for it.
+                    </p>
+
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <img src="icon_lock.svg" class="feature-icon" alt="Local First">
+                            <h3>100% Local</h3>
+                            <p>The AI lives on your device. No API calls to big tech companies.</p>
+                        </div>
+                        <div class="feature-card">
+                            <img src="icon_shield.svg" class="feature-icon" alt="Zero Retention">
+                            <h3>Zero Retention</h3>
+                            <p>We do not use your conversations to train our models. Your secrets stay yours.</p>
+                        </div>
+                        <div class="feature-card">
+                            <img src="icon_eye.svg" class="feature-icon" alt="Transparency">
+                            <h3>Transparency</h3>
+                            <p>Our architecture is open. We don't hide how it works. Trust is earned through clarity.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -103,18 +109,18 @@
 
         <section class="text-center">
             <div class="container fade-in">
-                <h2>Growth is a Process.</h2>
+                <h2 class="section-title">Vincent van Gogh</h2>
                 <div class="art-showcase" style="height: 400px;">
-                    <img src="starry_night_full.jpg" alt="Starry Night Integration">
+                    <img src="trust_bg.jpg" alt="Landscape with Olive Trees">
                 </div>
-                <div class="art-caption fade-in">
-                    <strong>Vincent van Gogh</strong>
-                    <p>“The Starry Night” (1889) — Completed during his stay at the asylum in Saint-Rémy-de-Provence,
-                        this masterpiece turns turbulence into beauty, proving that even in our darkest moments, there
-                        is light and wonder to be found.</p>
+                <div class="art-caption">
+                    <strong>“Olive Trees with the Alpilles in the Background” (1889)</strong>
+                    <p>Nature offers a grounded stability that we emulate. The sturdy olive trees, rooted deep in the
+                        earth, symbolize the unshakeable trust we aim to build.</p>
                 </div>
             </div>
         </section>
+
     </main>
 
     <footer style="padding: 4rem 0; text-align: center; border-top: 1px solid rgba(0,0,0,0.1);">

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Art | RESILIENCE</title>
+    <title>Social Impact | RESILIENCE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Ballet&display=swap"
@@ -14,8 +14,9 @@
 
     <style>
         :root {
-            --page-bg-image: url('art_bg.jpg');
-            --page-accent-color: #E91E63;
+            --page-bg-image: url('impact_bg.jpg');
+            --page-accent-color: #d1495b;
+            /* Vibrant pink/red from the abstract painting */
         }
     </style>
 </head>
@@ -23,7 +24,7 @@
 <body>
 
     <div class="background-container">
-        <img src="art_bg.jpg" class="background-image" alt="Background">
+        <img src="impact_bg.jpg" class="background-image" alt="Background - Abstract Shapes">
     </div>
 
     <nav>
@@ -35,10 +36,10 @@
             <div class="nav-links">
                 <a href="philosophy.html">Philosophy</a>
                 <a href="trust.html">Trust</a>
-                <a href="impact.html">Impact</a>
+                <a href="impact.html" style="color: var(--color-text-primary);">Impact</a>
                 <a href="tech.html">Tech</a>
                 <a href="science.html">Science</a>
-                <a href="art.html" style="color: var(--color-text-primary);">Art</a>
+                <a href="art.html">Art</a>
                 <a href="#" class="btn btn-nav">Start Now</a>
             </div>
 
@@ -67,34 +68,41 @@
     </nav>
 
     <main>
-        <section class="hero" style="min-height: 70vh;">
+        <section class="hero" style="min-height: 50vh;">
             <div class="container fade-in">
-                <h1>Beauty is Medicine.</h1>
-                <p>Art isn't decoration. It's a pathway to the subconscious. Neuroaesthetics reveals how beauty lowers
-                    cortisol and improves focus.</p>
+                <h1>Democratizing Calm.</h1>
+                <p>Mental resilience should be a right, not a luxury. We are building for everyone.</p>
             </div>
         </section>
 
-        <section>
+        <section style="background: rgba(255,255,255,0.6); backdrop-filter: blur(12px);">
             <div class="container">
-                <div class="features-grid">
-                    <div class="feature-card fade-in">
-                        <img src="icon_eye.svg" class="feature-icon" alt="Fractal Fluency">
-                        <h3>Fractal Fluency</h3>
-                        <p>Nature and chaotic art share fractal patterns that our brains are evolved to process
-                            effortlessly, inducing calm.</p>
-                    </div>
-                    <div class="feature-card fade-in">
-                        <img src="icon_palette.svg" class="feature-icon" alt="Color Psychology">
-                        <h3>Color Psychology</h3>
-                        <p>We strictly curate palettes based on the Van Gogh periods that demonstrated the highest
-                            emotional resonance.</p>
-                    </div>
-                    <div class="feature-card fade-in">
-                        <img src="icon_pillar.svg" class="feature-icon" alt="Cultural Anchor">
-                        <h3>Cultural Anchor</h3>
-                        <p>Connecting with masterpieces provides a sense of continuity and shared human experience,
-                            combatting isolation.</p>
+                <div class="fade-in" style="max-width: 800px; margin: 0 auto;">
+                    <h2 class="section-title text-center">Bridging the Gap.</h2>
+                    <p class="text-justify" style="margin-bottom: 2rem;">
+                        The world is facing a mental health crisis. Traditional therapy is often expensive,
+                        inaccessible, or stigmatized.
+                        We are using technology to bridge the gap between "I'm having a bad day" and "I need a
+                        therapist."
+                    </p>
+
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <img src="icon_handshake.svg" class="feature-icon" alt="Accessibility">
+                            <h3>Accessibility</h3>
+                            <p>Designing for students first. Mobile-first, offline-capable, and low-bandwidth.</p>
+                        </div>
+                        <div class="feature-card">
+                            <img src="icon_sprout.svg" class="feature-icon" alt="Scale">
+                            <h3>Scale</h3>
+                            <p>One resilient AI can help millions simultaneously. Amplifying wisdom.</p>
+                        </div>
+                        <div class="feature-card">
+                            <img src="icon_heart.svg" class="feature-icon" alt="Destigmatization">
+                            <h3>Destigmatization</h3>
+                            <p>Normalizing the conversation. Making mental resilience a daily practice, not a secret
+                                struggle.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -102,18 +110,18 @@
 
         <section class="text-center">
             <div class="container fade-in">
-                <h2>A Window to the Soul.</h2>
+                <h2 class="section-title">Abstract Expression</h2>
                 <div class="art-showcase" style="height: 400px;">
-                    <img src="art_bg.jpg" alt="Art Integration">
+                    <img src="impact_bg.jpg" alt="Abstract Art">
                 </div>
-                <div class="art-caption fade-in">
-                    <strong>Claude Monet</strong>
-                    <p>“Woman with a Parasol” (1875) — A fleeting moment captured in time. This work epitomizes the
-                        Impressionist goal of capturing the sensory effect of a scene—the "impression"—rather than its
-                        details, much like how we learn to observe our thoughts without judgment.</p>
+                <div class="art-caption">
+                    <strong>“Dynamics of Color”</strong>
+                    <p>The interplay of vibrant shapes and colors represents the diversity of the human experience. We
+                        aim to serve every shade of emotion.</p>
                 </div>
             </div>
         </section>
+
     </main>
 
     <footer style="padding: 4rem 0; text-align: center; border-top: 1px solid rgba(0,0,0,0.1);">

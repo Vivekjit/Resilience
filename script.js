@@ -1,5 +1,32 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+    // Mobile Menu
+    const menuToggle = document.querySelector('.menu-toggle');
+    const closeDrawer = document.querySelector('.close-drawer');
+    const mobileDrawer = document.querySelector('.mobile-drawer');
+
+    function toggleMenu() {
+        mobileDrawer.classList.toggle('active');
+        document.body.classList.toggle('nav-open');
+        document.body.style.overflow = mobileDrawer.classList.contains('active') ? 'hidden' : '';
+    }
+
+    if (menuToggle) {
+        menuToggle.addEventListener('click', toggleMenu);
+    }
+
+    if (closeDrawer) {
+        closeDrawer.addEventListener('click', toggleMenu);
+    }
+
+    // Close when clicking a link
+    const drawerLinks = document.querySelectorAll('.drawer-links a');
+    drawerLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (mobileDrawer.classList.contains('active')) toggleMenu();
+        });
+    });
+
     // Intersection Observer for Fade-in animations
     const observerOptions = {
         threshold: 0.1,

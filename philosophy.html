@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Philosophy | RESILIENCE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Ballet&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo_new.png">
+
+    <style>
+        :root {
+            --page-bg-image: url('philosophy_bg.jpg');
+            --page-accent-color: #6a4c93;
+            /* Muted purple to match the butterflies/painting */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="background-container">
+        <img src="philosophy_bg.jpg" class="background-image" alt="Background - Butterflies and Clouds">
+    </div>
+
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo_tree.jpg" alt="Logo">
+                Resilience
+            </a>
+            <div class="nav-links">
+                <a href="philosophy.html" style="color: var(--color-text-primary);">Philosophy</a>
+                <a href="trust.html">Trust</a>
+                <a href="impact.html">Impact</a>
+                <a href="tech.html">Tech</a>
+                <a href="science.html">Science</a>
+                <a href="art.html">Art</a>
+                <a href="#" class="btn btn-nav">Start Now</a>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Mobile Side Drawer -->
+            <div class="mobile-drawer">
+                <button class="close-drawer" aria-label="Close menu">&times;</button>
+                <div class="drawer-links">
+                    <a href="index.html">Home</a>
+                    <a href="philosophy.html">Our Philosophy</a>
+                    <a href="trust.html">Trust & Privacy</a>
+                    <a href="impact.html">Social Impact</a>
+                    <a href="tech.html">The Tech</a>
+                    <a href="science.html">The Science</a>
+                    <a href="art.html">The Art</a>
+                    <a href="#" class="btn drawer-btn">Start Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" style="min-height: 50vh;">
+            <div class="container fade-in">
+                <h1>Metamorphosis.</h1>
+                <p>Growth is not about fixing what is broken. It is about becoming what you are meant to be.</p>
+            </div>
+        </section>
+
+        <section style="background: rgba(255,255,255,0.6); backdrop-filter: blur(12px);">
+            <div class="container">
+                <div class="fade-in" style="max-width: 800px; margin: 0 auto;">
+                    <h2 class="section-title text-center">Wisdom, Not Just Data.</h2>
+                    <p class="text-justify" style="margin-bottom: 2rem;">
+                        We believe that mental resilience isn't just a clinical outcome; it's a philosophical stance.
+                        Modern psychology (CBT) owes its roots to ancient Stoicism. We bridge these worlds.
+                    </p>
+
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <img src="icon_mountain.svg" class="feature-icon" alt="Amor Fati">
+                            <h3>Amor Fati</h3>
+                            <p>Love your fate. Do not merely bear what is necessary, but love it. Every challenge is an
+                                opportunity.</p>
+                        </div>
+                        <div class="feature-card">
+                            <img src="icon_sprout.svg" class="feature-icon" alt="The Obstacle is the Way"
+                                style="opacity: 0.8">
+                            <!-- Taking creative liberty to use sprout as placeholder if needed, or remove icon if original didn't have one. Wait, original didn't have icons. I should add icons to ALL cards for consistency. -->
+                            <!-- Checking original file content again... yes, original cards in philosophy.html didn't have icons. I should add standard icons to all 3 to make it look good. -->
+                            <!-- Re-planning replacement to include icons for all 3 cards in Philosophy -->
+                            <h3>The Obstacle is the Way</h3>
+                            <p>We don't help you avoid difficulties. We help you transform them into fuel for growth.
+                            </p>
+                        </div>
+                        <div class="feature-card">
+                            <!-- Need an icon here. I'll use icon_shield.svg (Control) for now or similar. Actually I'll use existing ones.  -->
+                            <!-- Let's check available icons first. I have shield, lock, sprout, handshake, eye, heart, mountain, lifebuoy. -->
+                            <!-- Obstacle is Way -> Sprout (Growth) -->
+                            <!-- Control -> Shield (Defense/Boundary) -->
+                            <!-- Amor Fati -> Mountain (Endurance) -->
+                            <img src="icon_shield.svg" class="feature-icon" alt="Control">
+                            <h3>Control What You Can</h3>
+                            <p>Anxiety often comes from trying to control the uncontrollable. Focus on your response.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center">
+            <div class="container fade-in">
+                <h2 class="section-title">Odilon Redon</h2>
+                <div class="art-showcase" style="height: 400px;">
+                    <img src="philosophy_bg.jpg" alt="Butterflies and Clouds">
+                </div>
+                <div class="art-caption">
+                    <strong>“Butterflies” (c. 1910)</strong>
+                    <p>Redon’s dreamlike work captures the essence of transformation. The butterfly is the ultimate
+                        symbol of resilience—enduring the dark cocoon to emerge with wings.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer style="padding: 4rem 0; text-align: center; border-top: 1px solid rgba(0,0,0,0.1);">
+        <div class="container">
+            <p style="font-size: 0.9rem;">&copy; 2024 RESILIENCE. Designed in California.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
